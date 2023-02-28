@@ -2,13 +2,16 @@
     --green: #1abc9c;
     --dark-color: #2c3e50;
     --dark-text: #333333;
-    --footer-bottom: #2c3e50;
+    --footer-top: #3a546d;
 }
 #hero ,#about{
     background-color: var(--green);
 }
-.navbar, .footer-top{
+.navbar, .footer-bottom{
     background-color: var(--dark-color);
+}
+.footer-top{
+    background-color: var(--footer-top);
 }
 #hero img{
     max-width: 250px;
@@ -56,4 +59,8 @@ h1{
 }
 .mb-3 .form-control{
     border-radius: 0;
+}
+.footer-top .row .col-3{
+    width: 55px;
+    height: 55px;
 }
