@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md text-white">
+            <div class="container">
+              <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section id="hero"> 
+            <div class="container text-center text-uppercase text-white">
+                <img src="./img/avatar.svg" alt="Hero">
+                <h1>Start bootstrap</h1>
+                <div class="star w-50 mx-auto d-flex justify-content-center align-items-center py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="fs-2">Graphix artist - Web designer - Illustrator</p>
+            </div>
+        </section>
+        <section id="portfolio" class="my-5">
+            <div class="container text-center text-uppercase fw-semibold">
+                <h2>Portfolio</h2>
+                <div class="star black w-50 mx-auto d-flex justify-content-center align-items-center py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/cabin.png" alt="Cabin" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/cake.png" alt="Cake" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/circus.png" alt="Circus" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/game.png" alt="Game" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/safe.png" alt="Safe" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="box-img position-relative rounded overflow-hidden">
+                            <img src="./img/submarine.png" alt="Submarine" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container text-center text-uppercase fw-semibold text-white">
+                <h2>About</h2>
+                <div class="star w-50 mx-auto d-flex justify-content-center align-items-center py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-12">
+                        <p>Freelancer is afree bootstrap theme created by Start Bootstrap</p>
+                    </div>
+                    <div class="col-6 col-sm-12">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="my-5">
+            <div class="container text-uppercase fw-semibold">
+                <h2 class="text-center">Contact me</h2>
+                <div class="star black text-center w-50 mx-auto d-flex justify-content-center align-items-center py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control border-0 border-bottom px-0" id="username" placeholder="Name">
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" class="form-control border-0 border-bottom px-0" id="user-email" placeholder="Email Address">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control border-0 border-bottom px-0" id="user-number" placeholder="Number">
+                      </div>
+                      <div class="mb-3">
+                        <textarea name="message" class="form-control border-0 border-bottom px-0" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white">
+        <div class="footer-top">
+
+        </div>
+        <div class="footer-bottom">
+            
+        </div>
+    </footer>
+
+</body>
+</html>
