@@ -54,7 +54,10 @@ h1{
 .box-img:hover:after{
     opacity: 1;
 }
-.nav-item a:hover{
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
     color: var(--green);
 }
 .mb-3 .form-control{
@@ -63,4 +66,8 @@ h1{
 .footer-top .row .col-3{
     width: 55px;
     height: 55px;
+}
+.btn{
+    background-color: var(--green);
+    border: 1px solid white;
 }
